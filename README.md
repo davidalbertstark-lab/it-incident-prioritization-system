@@ -47,6 +47,8 @@ The goal is not just to store incidents, but to **support operational thinking**
 
 ---
 
+**Technicality**: Test with main.py file "python main.py"
+
 ## Automation & Integration Vision
 
 While the current implementation uses structured input, the system is designed with automation in mind.
