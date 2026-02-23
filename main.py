@@ -1,8 +1,6 @@
 # main.py
 
-# -----------------------------
 # IT Incident Prioritization
-# -----------------------------
 
 # Import functions from incident.py
 from incident import add_incident, view_incidents, rank_incidents, update_incident_status
