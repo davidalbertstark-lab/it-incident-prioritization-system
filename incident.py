@@ -3,17 +3,13 @@ import webbrowser
 # This list will store all incidents while the program is running
 incidents = []
 
-# -----------------------------
 # Terminal color codes
-# -----------------------------
 RED = "\033[91m"
 GREEN = "\033[92m"
 RESET = "\033[0m"
 
 
-# -----------------------------
 # Function: Add a new incident
-# -----------------------------
 def add_incident():
     """
     This function collects incident details from the user
@@ -75,9 +71,7 @@ def add_incident():
     print("Incident added successfully!")
 
 
-# -----------------------------
 # Function: View all incidents
-# -----------------------------
 def view_incidents():
     """
     Display all incidents in a clean table format with status colors.
@@ -106,9 +100,7 @@ def view_incidents():
         print(row)
 
 
-# -----------------------------
 # Function: Rank incidents by priority
-# -----------------------------
 def rank_incidents():
     """
     This function calculates priority scores for incidents
@@ -175,9 +167,7 @@ def rank_incidents():
         print(row)
 
 
-# -----------------------------
 # Function: Update incident status
-# -----------------------------
 def update_incident_status():
     """
     Allows the user to mark an incident as RESOLVED.
@@ -207,9 +197,7 @@ def update_incident_status():
 
 import os
 
-# -----------------------------
 # Function: Generate HTML report
-# -----------------------------
 def generate_html_report(ranked=False):
     """
     Generate an HTML table report for incidents.
